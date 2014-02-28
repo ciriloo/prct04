@@ -1,7 +1,7 @@
 #!usr/bin/python
 from math import sqrt
-a = float(raw_input('Valor de a:'))
-b = float(raw_input('Valor de b:'))
+a = float(raw_input('Valor de a:'))	#si a=b=c=constante aparece ValueError: math domain error
+b = float(raw_input('Valor de b:'))	#en este caso las soluciones son complejas
 c = float(raw_input('Valor de c:'))
 if a == 0 and b == 0 and c==0:
       print 'La ecuacion no tiene solucion'
